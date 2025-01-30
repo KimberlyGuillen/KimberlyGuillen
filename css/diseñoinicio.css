@@ -1,10 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 *{
-    box-sizing: border-box;    /*Con el "*" realiza cambio a todo */
+    box-sizing: border-box;    
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    
+    header nav {
+    
+        padding: 15px 0;
+        text-align: center;
+        background-color: #CEBC6F;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 0 0 30px 30px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin:0;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0px 0;
+        margin-left: 10px;
+        width: 80%; 
+    }
+
+    nav ul li a {
+        display: block;
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* Ajuste de la sección hero */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        width: 90%;
+    }
 }
 
 
+
+
+
+/*Pantallas grandes*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,7 +77,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #1B1734;
+    
     padding: 15px 0;
     text-align: center;
     background-color: #CEBC6F;
