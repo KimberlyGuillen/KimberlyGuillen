@@ -168,15 +168,14 @@ nav ul li a {
 }
 
 /* Estilos de la sección habilidades */
-.Habilidades {
+.Proyectos {
     text-align: center;
-    background-color: white;
     color: black;
     padding: 40px 20px;
     border-radius: 20px;
     margin: 10px;
 }
-.Habilidades h3 {
+.Proyectos h3 {
     color: #c4b168;
     font-size: 24px;
     font-weight: bold;
@@ -226,17 +225,42 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-.descarga2 {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0.7rem 1.5rem;
-    color: #ffffff;
-    background-color: #0E0E2D;;
-    border-radius: 8px;
-    margin-top: 2rem;
-    font-weight: bold;
-    
+
+
+.Diplomas {
+    text-align: center;
+  
+    color: #CEBC6F; 
+    padding: 20px;
+    border-radius: 10px;
 }
+
+.Diplomas h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #CEBC6F; 
+}
+
+.Diplomas a {
+    display: block;
+    background-color: #2a2f4f; 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px auto; 
+    width: 80%; 
+    max-width: 400px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Diplomas a:hover {
+    background-color: #3c417a; 
+    transform: scale(1.05); 
+}
+
 
 /* Pie de página */
 .footer {
