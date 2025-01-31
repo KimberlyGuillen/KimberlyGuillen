@@ -3,20 +3,57 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos de contacto</title>
+    <title>Información de contacto</title>
+    <link rel="stylesheet" href="css/diseñocontacto.css" />
+    <link rel="stylesheet" href="css/herofooter.css" />
+
  </head>
  <body>
     <header>
         <nav>
            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/proyectos.html">Proyectos</a></li>
-                <li><a href="/contacto.html">Contacto</a></li>  
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>  
            </ul> 
         </nav>
        </header> 
        <main>
 
+
+
+        <section class="Datos personales">
+          <h2>Información de contacto</h2>
+          <div class="Tel">
+            <img src="img/tel.png" alt="Icono telefono">
+          <p>Teléfono: 95371550</p>
+          </div>
+
+          <div class="Correo">
+            <img src="img/email.png" alt="Icono correro">
+          <p>Teléfono: Kimtrg2004@gmail.com</p>
+          </div>
+          
+        </section>
+
+        <div class="formulario"> 
+          <h2>Mándame un mensaje directo</h2>
+          <form id="contactForm" action="contacto.html" method="get">
+              <div class="contenido">
+                  <input type="text" id="nombre" placeholder="Nombre Completo">
+              </div>
+              <div class="contenido">
+                  <input type="tel" id="telefono" placeholder="Número de teléfono">
+              </div>
+              <div class="contenido">
+                  <textarea id="mensaje" placeholder="Mensaje"></textarea>
+              </div>
+              <button type="submit">Enviar</button>
+          </form>
+      </div>
+      
+
+      
        </main>
        
 <!-- pie de pagina -->
@@ -25,9 +62,9 @@
          <div class="footer-nav">
            <h3>Enlaces rápidos</h3>
            <ul>
-             <li><a href="#inicio">Inicio</a></li>
-             <li><a href="#proyectos">Proyectos</a></li>
-             <li><a href="#contacto">Contacto</a></li>
+             <li><a href="index.html">Inicio</a></li>
+             <li><a href="proyectos.html">Proyectos</a></li>
+             <li><a href="contacto.html">Contacto</a></li>
            </ul>
          </div>
      
@@ -48,5 +85,7 @@
          </div>
        <p>© 2025 Kimberly Reyes - Todos los derechos reservados.</p>
      </footer>
+
+     <script src="js/contacto.js"></script>
  </body>
  </html>
